@@ -14,7 +14,7 @@ namespace DatabaseConnection
 {
     public partial class Newlab : Form
     {
-        private static string connString = "server=localhost:port=3306,user id = root;password=;database=classicmodels;charset=utf8;";
+        private static string connString = "server=localhost;port=3306;user id = root;password=;database=classicmodels;charset=utf8;";
         MySqlConnection conn = new MySqlConnection(connString);
         MySqlDataAdapter adr;
         DataTable dt = new DataTable();
@@ -57,15 +57,15 @@ namespace DatabaseConnection
 
                         int rowsAdded = cmd.ExecuteNonQuery();
                         if (rowsAdded > 0)
-                            MessageBox.Show("Row Inserted");
+                            MessageBox.Show($"{rowsAdded}Row Inserted");
                         else
                             MessageBox.Show("No Row Inserted");
 
                     }
                 }
-                catch (Exception ex) { 
-                
-                
+                catch (Exception ex) {
+
+                    MessageBox.Show("Error:" + ex.Message);
                 }
             
             
