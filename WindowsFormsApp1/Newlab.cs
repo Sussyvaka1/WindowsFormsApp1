@@ -25,7 +25,7 @@ namespace DatabaseConnection
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string sqlCmd = "Select * from employee Where lastName = @lastName";
+            string sqlCmd = "SELECT * FROM employees WHERE lastName = @lastName";
             adr = new MySqlDataAdapter(sqlCmd, conn);
             adr.SelectCommand.Parameters.AddWithValue("@lastName", "Bow");
             adr.Fill(dt);
