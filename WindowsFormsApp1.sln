@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseConnection", "WindowsFormsApp1\DatabaseConnection.csproj", "{B2850993-1CF0-4E2B-B42A-09437312EE66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataControll", "DataControll\DataControll.csproj", "{EA365E2A-60CB-4939-AC4C-7CC08C30C1C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B2850993-1CF0-4E2B-B42A-09437312EE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2850993-1CF0-4E2B-B42A-09437312EE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2850993-1CF0-4E2B-B42A-09437312EE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA365E2A-60CB-4939-AC4C-7CC08C30C1C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA365E2A-60CB-4939-AC4C-7CC08C30C1C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA365E2A-60CB-4939-AC4C-7CC08C30C1C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA365E2A-60CB-4939-AC4C-7CC08C30C1C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿namespace DatabaseConnection
 {
-    partial class Newlab
+    partial class Newlab1
     {
         /// <summary>
         /// Required designer variable.

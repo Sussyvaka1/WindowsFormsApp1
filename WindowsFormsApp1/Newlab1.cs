@@ -12,13 +12,13 @@ using System.Windows.Forms;
 
 namespace DatabaseConnection
 {
-    public partial class Newlab : Form
+    public partial class Newlab1 : Form
     {
         private static string connString = "server=localhost;port=3306;user id = root;password=;database=classicmodels;charset=utf8;";
         MySqlConnection conn = new MySqlConnection(connString);
         MySqlDataAdapter adr;
         DataTable dt = new DataTable();
-        public Newlab()
+        public Newlab1()
         {
             InitializeComponent();
         }
